@@ -1,12 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Planning App CSS</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<script src="https://use.fontawesome.com/6f993f4769.js"></script>
+
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
+
 <body>
-<h1>Hello world</h1>
-<p>paraghraph</p>
-<p>paraghraph</p>
+  <div id="container">  
+  <input type="checkbox" class="nav__input" id="nav_input">
+  <input class="rad" id="rad2" type="radio" name="rad">
+  <input class="rad" id="rad1" type="radio" name="rad" checked>
+  <div class="mockup">
+    <div class="bubble-menu"><i class="material-icons">create</i></div>
+    <div class="top" id="tendina">
+      <div class="status">
+        <ul>
+          <li class="clock">4.30 pm <i class="material-icons alarm">alarm</i></li>
+          <li><i class="material-icons data">import_export</i> Telecom</li>
+          <li class="battery">80% &#9679; &#9679; &#9679; &#9679; &#9675;</li>
+        </ul>
+      </div>
+      <div class="menu">
+        <div class="sotto-menu">
+          <label class="burger" for="nav_input"><i class="material-icons">menu</i></label>
+          <p class="today-label"></p>
+        </div>
+        <div class="selection">
+          <div class="liselect"></div>
+          <ul>
+             <label class="label1" for="rad1"><li class="active"><i class="material-icons">date_range</i></li></label>          
+             <label class="label2" for="rad2"><li><i class="material-icons">question_answer</i></li></label>
+          </ul>
+        </div>
+      </div>
+      <div class="calendar">
+        <div class="day">
+          <div class="circle-cont"><p class="circle-date"><span>20</span>March</p></div>
+          <div class="days-plan"><p class="day-plan">4 plans today</p></div>
+        </div>
+        <div class="month">
+          <ul class="weekdays">
+            <li>M</li>
+            <li>T</li>
+            <li>W</li>
+            <li>T</li>
+            <li>F</li>
+            <li>S</li>
+            <li>S</li>
+          </ul>
+          <ul class="days"> 
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li><span class="active">20</span></li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content-cont">
+      <div class="todays" id="todays">
+        <div class="plan-card">
+          <div class="card-info">
+            <p class="date">TODAY <span>5:00 PM</span></p>
+            <span class="urgent"><span> &#9679; </span>URGENT</span>
+          </div>
+          <div class="card-plans">
+            <p class="todo">
+              <span>Buy Grocery Items</span>
+              5:00 - 6:00 pm <br>
+              Walmart, CA <br>
+              30 min drive
+            </p>
+            <div class="map"><span class="point"></span></div>
+          </div>
+        </div>
+        <div class="upcoming">
+          <p class="up-title">UPCOMING PLAN (3)</p>
+          <ul class="up-plan">
+            <li><div class="roundhead"><i class="material-icons">group_add</i></div>Discuss with Adrian Begi<span class="secondo">Call Adrian at the right time</span><p class="up-date">6.00 pm <span class="up-priority"><span style="color: #3399ff;">&#9679; </span>MEDIUM</span></p></li>
+            <li><span class="roundhead"><i class="material-icons">voice_chat</i></span>Video calling with Boss<span class="secondo">I hate but have to talk with my ceo</span><p class="up-date">6.00 pm <span class="up-priority"><span style="color: #ff5050;">&#9679; </span>URGENT</span></p></li></li>
+            <li><span class="roundhead"><i class="fa fa-trophy" aria-hidden="true"></i></span>UEFA Champions League Final<span class="secondo">Real Madrid vs Juventus</span><p class="up-date">6.00 pm <span class="up-priority"><span style="color: #47d147;">&#9679; </span>LOW</span></p></li></li>
+          </ul>
+        </div>
+      </div>
+      <div class="social">
+        <div class="social-card">
+          <div class="profimg"><img src="https://randomuser.me/api/portraits/women/25.jpg"></div>
+          <div class="social-cont"><p><span class="social-title">Clara Rossie</span> Planning for new event at Vegas Club with buffet dinner on coming week.</p></div>
+          <i class="material-icons full">fullscreen</i>
+        </div>
+        <div class="social-card">
+          <div class="profimg"><img src="https://randomuser.me/api/portraits/men/71.jpg"></div>
+          <div class="social-cont"><p><span class="social-title">George Hamilton</span> We are planning to visit Hollywood city for have some fun...</p></div>
+          <i class="material-icons full">fullscreen</i>
+        </div>
+        <div class="social-card">
+          <div class="profimg"><img src="https://randomuser.me/api/portraits/women/91.jpg"></div>
+          <div class="social-cont"><p><span class="social-title">Lynn Morancie</span> Hey! I am organising a school fund for help poor buying winter clothes...</p></div>
+          <i class="material-icons full">fullscreen</i>
+        </div>
+        <div class="social-card">
+          <div class="profimg"><img src="https://randomuser.me/api/portraits/men/3.jpg"></div>
+          <div class="social-cont"><p><span class="social-title">Willaim Cohen</span> I am going to arrange a rock metal band party tomorrow. Let me know...</p></div>
+          <i class="material-icons full">fullscreen</i>
+        </div>
+        <div class="social-card">
+          <div class="profimg"><img src="https://randomuser.me/api/portraits/men/94.jpg"></div>
+          <div class="social-cont"><p><span class="social-title">Michael Patt</span> I am bored to see all above plans! Lets go to moon and have some adventure</p></div>
+          <i class="material-icons full">fullscreen</i>
+        </div>
+        <div class="bottommenu">
+          <ul>
+            <li><i class="material-icons">event_available</i></li>
+            <li><i class="material-icons">notifications_none</i></li>
+            <li><i class="material-icons">people</i></li>
+            <li><i class="material-icons">equalizer</i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    <script  src="js/index.js"></script>
+
 </body>
 </html>
